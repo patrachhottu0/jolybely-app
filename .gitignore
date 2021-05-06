@@ -26,3 +26,11 @@ frontend/src/components/Product.js
 frontend/src/components/Rating.js
 frontend/src/screens/ProductScreen.js
 frontend/src/screens/HomeScreen.js
+
+package-lock.json
+package.json
+backend/data.js
+backend/server.js
+
+frontend/src/components/LoadingBox.js
+frontend/src/components/MessageBox.js
