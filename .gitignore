@@ -46,3 +46,7 @@ frontend/src/reducers/cartReducers.js
 .gitignore
 frontend/src/actions/cartActions.js
 frontend/src/constants/cartConstants.js
+backend/routers/userRouter.js
+backend/models/userModel.js
+backend/models/productModel.js
+backend/routers/productRouter.js
