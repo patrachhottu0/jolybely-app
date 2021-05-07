@@ -41,3 +41,8 @@ frontend/src/store.js
 frontend/src/constants/productConstants.js
 frontend/src/reducers/productReducers.js
 frontend/src/actions/productActions.js
+frontend/src/screens/CartScreen.js
+frontend/src/reducers/cartReducers.js
+.gitignore
+frontend/src/actions/cartActions.js
+frontend/src/constants/cartConstants.js
