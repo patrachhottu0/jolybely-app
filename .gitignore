@@ -34,3 +34,10 @@ backend/server.js
 
 frontend/src/components/LoadingBox.js
 frontend/src/components/MessageBox.js
+frontend/.env
+eslintrc.js
+frontend/src/store.js
+
+frontend/src/constants/productConstants.js
+frontend/src/reducers/productReducers.js
+frontend/src/actions/productActions.js
