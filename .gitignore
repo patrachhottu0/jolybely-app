@@ -1,52 +1,20 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 node_modules
 /.pnp
 .pnp.js
-
 # testing
 /coverage
-
 # production
 build
-
 # misc
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-frontend/package-lock.json
-frontend/src/components/Product.js
-frontend/src/components/Rating.js
-frontend/src/screens/ProductScreen.js
-frontend/src/screens/HomeScreen.js
-
+yarn-error.log* 
 package-lock.json
-package.json
-backend/data.js
-backend/server.js
-
-frontend/src/components/LoadingBox.js
-frontend/src/components/MessageBox.js
-frontend/.env
-eslintrc.js
-frontend/src/store.js
-
-frontend/src/constants/productConstants.js
-frontend/src/reducers/productReducers.js
-frontend/src/actions/productActions.js
-frontend/src/screens/CartScreen.js
-frontend/src/reducers/cartReducers.js
-.gitignore
-frontend/src/actions/cartActions.js
-frontend/src/constants/cartConstants.js
-backend/routers/userRouter.js
-backend/models/userModel.js
-backend/models/productModel.js
-backend/routers/productRouter.js
+.env
+/uploads/*.jpg

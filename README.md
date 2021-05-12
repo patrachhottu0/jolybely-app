@@ -1,4 +1,5 @@
 # jolybely-app
+
 1. Introduction to this course
    1. what you will build
    2. what you will learn
@@ -125,4 +126,133 @@
     1. create models/productModel.js
     2. create productSchema and productModel
     3. create productRoute
-    4. Seed sample data    
+    4. Seed sample data 
+20. Create Sign-in Backend
+    1. create /signin api
+    2. check email and password
+    3. generate token
+    4. install json web token
+    5. install dotenv
+    6. return token and data
+    7. test it using postman
+21. Design SignIn Screen
+    1. create SigninScreen
+    2. render email and password fields
+    3. create signin constants, actions and reducers
+    4. Update Header based on user login
+22. Implement SignIn Action
+    1. create signin constants, actions and reducers
+    2. add reducer to store.js
+    3. use action in SigninScreen.js
+23. Create Register Screen
+    1. create API for /api/users/register
+    2. insert new user to database
+    3. return user info and token
+    4. create RegisterScreen
+    5. Add fields
+    6. Style fields
+    7. Add screen to App.js
+    8. create register action and reducer
+    9. check validation and create user  
+24. Create Shipping Screen
+    1. create CheckoutSteps.js component
+    2. create shipping fields
+    3. implement shipping constant, actions and reducers
+25. Create Payment Screen
+    1. create payment fields
+    2. implement shipping constant, actions and reducers
+26. Design Place Order Screen
+    1. design order summary fields
+    2. design order action  
+27. Create Place Order API
+    1. createOrder api
+    2. create orderModel
+    3. create orderRouter
+    4. create post order route
+28. Implement PlaceOrder Action
+    1. handle place order button click
+    2. create place order constants, action and reducer
+29. Create Order Screen
+    1. build order api for /api/orders/:id
+    2. create OrderScreen.js
+    3. dispatch order details action in useEffect
+    4. load data with useSelector
+    5. show data like place order screen
+    6. create order details constant, action and reducer
+30. Add PayPal Button
+    1. get client id from paypal
+    2. set it in .env file
+    3. create route form /api/paypal/clientId
+    4. create getPaypalClientID in api.js
+    5. add paypal checkout script in OrderScreen.js
+    6. show paypal button
+31. Implement Order Payment
+    1. update order after payment
+    2. create payOrder in api.js
+    3. create route for /:id/pay in orderRouter.js
+    4. rerender after pay order
+32. Display Orders History
+    1. create customer orders api
+    2. create api for getMyOrders
+    3. show orders in profile screen
+    4. style orders
+33. Display User Profile
+    1. create user details api
+    2. show user information
+34. Update User Profile
+    1. create user update api
+    2. update user info
+35. Create Admin View
+    1. Create Admin Menu
+    2. Create Admin Middleware in Backend
+    3. Create Admin Route in Frontend
+36. List Products
+    1. Create Product List Screen
+    2. Add reducer to store
+    3. show products on the screen
+37. Create Product
+    1. build create product api
+    2. build Create Product button
+    3. define product create constant, action and reducer
+    4. use action in Product List Screen
+38. Build Product Edit Screen
+    1. create edit screen
+    2. define state
+    3. create fields
+    4. load product details
+    5.  add to routes
+39. Update Product
+    1. define update api
+    2. define product update constant, action and reducer
+    3. use action in Product Edit Screen
+40. Upload Product Image
+    1. npm install multer
+    7. define upload router
+    8. create uploads folder 
+    9. Handle frontend
+41. Delete Product
+    1.  create delete api in backend
+    2.  create delete constants, action and reducer
+    3.  use it in product list screen
+42. List Orders
+    1. create order list api
+    2. create Order List Screen
+    3. Add reducer to store
+    4. show products on the screen
+43. Delete Order
+    2. create delete order action and reducer
+    3. add order delete action to order list
+44. Deliver Order
+    1. create constant, actions and reducers for deliver order
+    2. add order deliver action to order details screen
+45. Publish To Heroku
+    1. Create git repository
+    2. Create heroku account
+    3. install Heroku CLI
+    4. heroku login
+    5. heroku apps:create <yourname>jolybelly
+    6. Edit package.json for build script
+    10. Create Procfile
+    12. Create mongodb atlas database
+    19. Set database connection in heroku env variables
+    20. Commit and push
